@@ -1,16 +1,23 @@
-# FakeNews-Tracker
+# Tobacco and Vape Use in Chicago(the U.S.)
 ## Yi-Huai Chang
 ## Description
-This project will focus on visualizing the spread of fake news and misinformation across different regions, leveraging data from the Global Database of Events, Language, and Tone (GDELT). The goal is to analyze how misinformation propagates geographically and over time, identifying which regions and topics are most affected. The project will utilize GDELT's theme tagging to isolate news articles related to fake news, misinformation, conspiracy theories, and related topics.
+According to [Chicago Department of Public Health(CDPH)](https://www.chicago.gov/city/en/depts/cdph/provdrs/healthy_living/news/2020/september/youth-cigarette-use-reaches-new-low-in-chicago--although-vaping-.html#:~:text=The%20city's%20youth%20smoking%20rate,and%20the%20nation%20(32.7%25).), the use of cigarettes among youth has been decreasing. However, vaping is on the rise. The use of tobacco and vape products has significant public health implications. This project aims to explore the patterns of tobacco and vape use across different neighborhood(if possible) demographic groups and time periods using data from the Healthy Chicago Survey(or National Survey on Drug Use and Health). By visualizing trends and demographic disparities in tobacco and vape use, we can identify high-risk populations and areas for targeted interventions.
 
-Through interactive maps and time series visualizations, this project aims to provide insights into the hotspots of misinformation, and track its spread globally. Understanding the patterns of fake news dissemination is crucial for addressing its societal impacts, particularly in areas such as public health, politics, and social cohesion.
+Tobacco use remains one of the leading causes of preventable deaths in the U.S., while vaping has grown rapidly as a substitute, especially among younger populations. This analysis will provide insights into how these behaviors vary by age, gender, ethnicity, income, and education levels, as well as across different regions of the city. By leveraging the data, the project aims to generate visualizations that will inform public health strategies and contribute to reducing tobacco and vape usage.
 
 ## Likely Data Scource
-### 1. Global Database of Events, Language, and Tone (GDELT)
+### 1. Healthy Chicago Survey(Data request is needed, in progress)
 #### URL: 
-[GDELT Project](https://www.gdeltproject.org/data.html)
+[Healthy Chicago Survey](https://www.chicago.gov/city/en/depts/cdph/supp_info/healthy-communities/healthy-chicago-survey.html)
 #### Description: 
-GDELT monitors and compiles global news reports, translating them from multiple languages, and categorizes them by themes, including fake news, misinformation, and conspiracy theories. The database provides real-time data on the geographic spread of these themes, along with sentiment analysis and the tone of coverage.
-
+The Healthy Chicago Survey is an annual survey conducted by the Chicago Department of Public Health. It collects data on health behaviors, conditions, and preventive measures from Chicago residents. This dataset includes questions related to tobacco and vape use, along with a range of demographic variables such as age, gender, ethnicity, income, education, and zip code(if possible).
 #### Estimated observations: 
-Millions of rows, with 15-20 columns. Key columns include event ID, date, location, theme (e.g., "fake news," "misinformation"), tone, and source URL. Due to the large volume of data, the analysis will be limited to the most recent 10 years of observations.
+For each year there are around 5000 observations. I am planning to do from 2014 to most recent year.
+
+### 2. National Survey on Drug Use and Health
+#### URL: 
+[National Survey on Drug Use and Health](https://www.chicago.gov/city/en/depts/cdph/supp_info/healthy-communities/healthy-chicago-survey.html)
+#### Description: 
+The NSDUH is an annual survey that provides national and state-level data on the use of tobacco, alcohol, illicit drugs, and mental health issues among U.S. residents aged 12 and older. The dataset contains detailed information on substance usage, demographic variables (age, gender, race/ethnicity, income, and education), and regional data (state or substate areas).
+#### Estimated observations: 
+Each year has around 60000 observations, I am planning to anlayze the most recent 10 years.
