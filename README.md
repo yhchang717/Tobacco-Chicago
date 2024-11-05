@@ -7,8 +7,9 @@ Tobacco use remains one of the leading causes of preventable deaths in the U.S.,
 
 ## Sample Output
 
-![screenshot]("static_final\sample_output.png")
-[Full Report]("static_final\final.pdf")
+![screenshot](static_final/sample_output.png) 
+
+[Full Report](https://github.com/yhchang717/Tobacco-Chicago/blob/main/static_final/final.pdf)
 
 ## Data Scource
 ### National Survey on Drug Use and Health
