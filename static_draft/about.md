@@ -31,7 +31,6 @@ This bar chart shows the percentage of current smokers across various racial gro
 ### 5. Cigarette Use Distribution by Age Group (Violin Plot):
 
 This violin plot visualizes the distribution of cigarette use across age groups. It shows both light and heavy smoking patterns within each demographic. This chart provides a detailed view of how smoking behavior differs by age, aiding in demographic analysis.
-Percentage of Ever Use of Cigarettes, Smokeless Tobacco, Cigars, and Pipes by Year:
 
 ### 6.Cigarette Use Distribution by Age Group (stacked bar):
 
