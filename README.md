@@ -1,4 +1,4 @@
-# Tobacco Use in the U.S.
+# Tobacco Use Insights: Trends, Demographics, and Policy Impacts
 ## Yi-Huai Chang
 ## Description
 According to [Chicago Department of Public Health(CDPH)](https://www.chicago.gov/city/en/depts/cdph/provdrs/healthy_living/news/2020/september/youth-cigarette-use-reaches-new-low-in-chicago--although-vaping-.html#:~:text=The%20city's%20youth%20smoking%20rate,and%20the%20nation%20(32.7%25).), the use of cigarettes among youth has been decreasing. However, vaping is on the rise. The use of tobacco and vape products has significant public health implications. This project aims to explore the patterns of tobacco use across different demographic groups and time periods using data from the National Survey on Drug Use and Health. By visualizing trends and demographic disparities in different tobacco use, we can identify high-risk populations for targeted interventions.
